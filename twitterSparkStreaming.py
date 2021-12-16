@@ -49,8 +49,6 @@ PORT = 9001       # port
 
 STREAMTIME = 600          # time that the streaming process runs
 
-WORD = ['data', 'spark', 'ai', 'movie', 'good']     #the words you should filter and do word count
-
 # Helper functions
 def saveToStorage(rdd, output_directory, columns_name, mode):
     """
